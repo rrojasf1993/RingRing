@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRingLing.Data", "TestRi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRingLing.Cross", "TestRingLing.Cross\TestRingLing.Cross.csproj", "{DA437400-C5E5-491C-97DA-8B026099ED64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRingLing.Services", "TestRingLing.Services\TestRingLing.Services.csproj", "{45B10238-50E0-47B9-A79E-33553F24A056}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DA437400-C5E5-491C-97DA-8B026099ED64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA437400-C5E5-491C-97DA-8B026099ED64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA437400-C5E5-491C-97DA-8B026099ED64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B10238-50E0-47B9-A79E-33553F24A056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B10238-50E0-47B9-A79E-33553F24A056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B10238-50E0-47B9-A79E-33553F24A056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B10238-50E0-47B9-A79E-33553F24A056}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

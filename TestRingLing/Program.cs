@@ -1,8 +1,21 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿
+
+using TestRingLing.Data;
+using TestRingLing.Services;
+using TestRingLing.Cross;
+using TestRingLing.Cross.DTO;
+using Microsoft.OpenApi.Models;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<ICsvReader<Customer>, CsvReader<Customer>>();
+builder.Services.AddScoped<IService<Customer>, CustomerService>();
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
@@ -17,6 +30,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.MapControllerRoute(
     name: "default",
