@@ -13,7 +13,7 @@ public class CustomerService:IService<Customer>
     }
     public IEnumerable<Customer> GetData()
     {
-        string path = "";
+        string path = $"{Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location)}/Files/customer.csv";
         var customerData=this._csvReader.GetDataFromCsvFile(path);
         return customerData;
     }
