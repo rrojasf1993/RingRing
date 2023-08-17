@@ -1,6 +1,9 @@
 ﻿import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import CustomerData from './CustomerData';
+import CallHistoryGrid from './CallHistoryGrid';
+import ContactInfo from './ContactInfo';
+
 import LoadsGrid from './LoadsGrid';
 const CustomerDetail = () =>
 {
@@ -19,10 +22,10 @@ const CustomerDetail = () =>
             <LoadsGrid />
         </TabPanel>
         <TabPanel>
-            <h2>Any content 3</h2>
+           <CallHistoryGrid />
         </TabPanel>
         <TabPanel>
-            <h2>Any content 4</h2>
+        <ContactInfo />
         </TabPanel>
     </Tabs>)
 }
