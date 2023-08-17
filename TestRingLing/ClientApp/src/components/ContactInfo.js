@@ -33,12 +33,12 @@ const ContactInfo = () => {
         <div className="row">
             <div className="col">
                 <div className="row">
-                    <div className="col">
+                    <div className="col" style={{'border-left': '6px blue solid','margin-left': '15px'}}>
                         <span style={{'font-size': '20px'}}>TOTAL CALLS</span>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col">
+                    <div className="col" style={{'border-left': '6px blue solid','margin-left': '15px'}}>
                         <span style={{'font-size': '25px', 'font-weight': 'bold'}}>12</span>
                     </div>
                 </div>
