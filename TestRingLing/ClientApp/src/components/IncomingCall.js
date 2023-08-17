@@ -1,7 +1,7 @@
 
 import { CardBody, Card, CardText, CardTitle, CardSubtitle,Button} from "reactstrap";
 
-const IncomingCall=()=>{
+const IncomingCall=(props)=>{
     return (<Card
         style={{
             width: '18rem'
@@ -37,16 +37,19 @@ const IncomingCall=()=>{
                     <Button color="secondary" className="custom-rounded-button">Reply</Button>
                 </div>
                 <div className="col-md-4">
-                    <Button color="danger" className="custom-rounded-button">Ignore</Button>
+                    <Button color="danger" className="custom-rounded-button"
+                    onClick={props.ignoreClick}>Ignore</Button>
                 </div>
 
             </div>
             <div className="row">
                 <div className="col-md-6">
-                    <Button color="warning" className="custom-rounded-button custom-float-right">Voice Mail</Button>
+                    <Button color="warning" className="custom-rounded-button custom-float-right"
+                    onClick={props.voiceMailClick}>Voice Mail</Button>
                 </div>
                 <div className="col-md-6">
-                    <Button color="success" className="custom-rounded-button">Answer</Button>
+                    <Button color="success" className="custom-rounded-button"
+                    onClick={props.answerClick}>Answer</Button>
                 </div>
 
             </div>

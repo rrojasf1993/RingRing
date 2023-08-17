@@ -5,7 +5,7 @@ const LoadsGrid = () => {
     return (<>
         <div className="row">
             <h2> Last 50 Loads</h2>
-               <a href="#">View Full History</a>
+            <a href="#">View Full History</a>
         </div>
         <div className="row">
             <Table striped>
@@ -15,7 +15,7 @@ const LoadsGrid = () => {
                             Load ID
                         </th>
                         <th>
-                           Mode
+                            Mode
                         </th>
                         <th>
                             Pickup
@@ -28,7 +28,7 @@ const LoadsGrid = () => {
                         </th>
 
                         <th>
-                           Revenue Cost
+                            Revenue Cost
                         </th>
                     </tr>
                 </thead>
@@ -44,7 +44,13 @@ const LoadsGrid = () => {
                             Otto
                         </td>
                         <td>
-                            @mdo
+                        Wed, Aug 16, 09:00 EDT
+                        </td>
+                        <td>
+                            Reefer
+                        </td>
+                        <td>
+                            $ 4,566
                         </td>
                     </tr>
                     <tr>
@@ -58,7 +64,13 @@ const LoadsGrid = () => {
                             Thornton
                         </td>
                         <td>
-                            @fat
+                        Wed, Aug 17, 09:56 EDT
+                        </td>
+                        <td>
+                            Reefer
+                        </td>
+                        <td>
+                            $ 2,689
                         </td>
                     </tr>
                     <tr>
@@ -72,7 +84,13 @@ const LoadsGrid = () => {
                             the Bird
                         </td>
                         <td>
-                            @twitter
+                        Wed, Aug 18, 09:12 EDT
+                        </td>
+                        <td>
+                            Van
+                        </td>
+                        <td>
+                            $ 7,687
                         </td>
                     </tr>
                 </tbody>
