@@ -1,7 +1,6 @@
-﻿import { Button ,Card, CardHeader, CardBody, CardTitle, CardText, CardFooter} from 'reactstrap';
+﻿import { Button, Card, CardHeader, CardBody, CardTitle, CardText, CardFooter } from 'reactstrap';
 
-const CustomerData = () =>
-{
+const CustomerData = () => {
     return (<div>
 
 
@@ -11,27 +10,27 @@ const CustomerData = () =>
         >
             <CardHeader>
                 <Button color="success" disabled> Active </Button>
-  </CardHeader>
+            </CardHeader>
             <CardBody>
                 <CardTitle tag="h5">
                     <b>Coca Cola Inc.</b>
-    </CardTitle>
+                </CardTitle>
                 <CardText>
                     <p>CC:CC1 | <a href="#">See full customer</a></p>
                     <hr></hr>
                     <b>Sales Rep:</b> Jane Doe
                     <div className="row">
-                    <div className="col-md-4">Atlanta, MX</div>
+                        <div className="col-md-4">Atlanta, MX</div>
                         <div className="col-md-4"><a href="#">A Website</a></div>
                         <div className="col-md-4">000 -00 00</div>
 
                     </div>
-    </CardText>
-                
+                </CardText>
+
             </CardBody>
             <CardFooter>
-            <div className="row">
-               
+                <div className="row">
+
                     <div className="col-md-6">All Time Volume</div>
                     <div className="col-md-6">Last Shipment</div>
                     <div className="col-md-6">1.234 Kg</div>

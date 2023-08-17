@@ -1,7 +1,7 @@
 ﻿import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import CustomerData from './CustomerData';
-
+import LoadsGrid from './LoadsGrid';
 const CustomerDetail = () =>
 {
     return(<Tabs>
@@ -16,7 +16,7 @@ const CustomerDetail = () =>
             <CustomerData/>
         </TabPanel>
         <TabPanel>
-            <h2>Any content 2</h2>
+            <LoadsGrid />
         </TabPanel>
         <TabPanel>
             <h2>Any content 3</h2>
